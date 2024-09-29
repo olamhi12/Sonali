@@ -1,0 +1,34 @@
+body  {
+  font-family: "Plus Jakarta Sans", system-ui;
+  font-optical-sizing: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+.first-section {
+    background: #F2F5EA;
+    width: 100%;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    width: 324px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 530px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #2C363F;
+    font-size: 16px;
+    font-weight: 500;
+}
+header button {
+    padding: 12px 30px;
+    border: 2px solid #2C363F;
+    font-size: 18px;
+    font-weight: 700;
+}
