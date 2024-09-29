@@ -58,7 +58,7 @@ header button {
     padding-bottom: 150px;
 }
 .first-section main .word {
-    /* position: absolute; */
+    position: absolute;
     margin-top: 155px;
     margin-left: 120px;
     gap: 10px;
