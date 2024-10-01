@@ -32,6 +32,10 @@ header {
     gap: 270px;
     margin-top: 15px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .nav-links {
     width: 324px;
@@ -55,7 +59,7 @@ header button {
 .line3 {
     border: 1px solid #2C363F;
     width: 100%;
-    margin-top: 32px;
+    margin-top: 92px;
 }
 .first-section main {
     display: flex;
@@ -118,7 +122,7 @@ header button {
     opacity: 1;
     position: absolute;
     inset: 0;
-    height: 100%;
+    background-size: contain;
     display: none;
     justify-content: center;
     align-items: center;
@@ -151,7 +155,7 @@ header button {
     height: 694px;
     background-color: #2C363F;
     display: flex;
-    gap: 300px;
+    gap: 280px;
     color: #F2F5EA;
     padding-bottom: 100px;
 }
@@ -224,6 +228,7 @@ header button {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 100px;
 }
 .third-section svg {
     margin-left: 130px;
@@ -244,6 +249,7 @@ header button {
 .port {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
     margin-left: 120px;
 }
@@ -257,15 +263,13 @@ header button {
 .work-content {
     width: 366px;
     height: 237px;
-    margin-left: 40px;
-    border: 1px solid red;
+    margin-left: 50px;
 }
 .work-content2 {
     width: 366px;
     height: 237px;
     margin-left: 40px;
     margin-right: 155px;
-    border: 1px solid red;
 }
 .work-content h1 {
     font-size: 18px;
@@ -305,9 +309,146 @@ header button {
 .work-content2 img {
     margin-top: 30px;
 }
+.work-content3 {
+    width: 420px;
+    height: 237px;
+    margin-left: 50px;
+}
+.work-content3 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.work-content3 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.work-content3 p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 366px;
+    margin: 0;
+}
+.work-content3 img {
+    margin-top: 30px;
+}
+.third-section .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-section button {
+    padding: 18px 40px;
+    background-color: #2C363F;
+    color: #F2F5EA;
+    border: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+/* fourth section */
 
+.fourth-section {
+    height: 875px;
+    background-color: #2C363F;
+    color: #F2F5EA;
+}
 
+.container {
+    margin-top: 150px;
+    margin-left: 120px;
+    position: relative;
+}
+.arrow {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+.container h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+.container p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.first {
+    display: flex;
+    gap: 150px;
+}
+.righthand {
+    margin-top: 100px;
+}
+.righthand p {
+    width: 580px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.righthand h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+.righthand h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
 
+/* footer */
+footer {
+    background-color: #F2F5EA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2C363F;
+    text-align: center;
+    padding-top: 100px;
+}
+footer h1 {
+    width: 800px;
+    font-size: 72px;
+    font-weight: 700;
+}
+footer button {
+    background-color: #2C363F;
+    color: #F2F5EA;
+    border: 0;
+    padding: 22px 50px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.lastline {
+    border: 1px solid #2C363F;
+    width: 100%;
+    margin-top: 150px;
+}
+.lastcontent {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.lastcontent .anchor {
+    display: flex;
+    width: 324px;
+    justify-content: space-between;
+}
+.lastcontent a {
+    text-decoration: none;
+    color: #2C363F;
+    font-weight: 500;
+    font-size: 16px;
+}
+.lasticon {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
 /* Mobile screen */
 @media screen and (max-width: 900px) {
     .phone-header {
