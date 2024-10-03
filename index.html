@@ -11,18 +11,23 @@
 </head>
 <body>
     <div class="first-section">
+        <div class="frame">
+            <a href="">Home</a>
+        </div>
         <header>
             <div class="phone-header">
-                <img src="images/Frame 13.png" alt="">
+                <img src="images/Frame 13.png" alt="" id="Menu">
                 <button>SONALI.</button>
             </div>
-            <div class="nav-links">
+            <div class="lap-head">
+             <div class="nav-links">
                 <a href="#home">Home</a>
                 <a href="#services">Services</a>
                 <a href="#portfolio">Portfolio</a>
                 <a href="#testimonial">Testimonial</a>
+             </div>
+             <button class="Lappy" >Contact</button>
             </div>
-            <button class="Lappy">Contact</button>
         </header>
         <div class="line3"></div>
         <main>
@@ -31,7 +36,7 @@
                 <h1>I’M SONALI A <br> WEB DEVELOPER</h1>
                 <p>I craft high-performing, beautiful websites that are <br>
                      conversion-focused, brand-accurate, & people- <br>friendly.</p>
-                     <button class="">LET'S TALK</button>
+                     <button >LET'S TALK</button>
                      <div class="social-icon">
                         <h2>Follow me</h2>
                         <div class="icons">
@@ -50,9 +55,9 @@
     </div>
     <div class="lettalk">
         <div class="form">
-            <input type="text" placeholder="First-Name">
-            <input type="text" placeholder="Last-Name">
-            <input type="text" placeholder="Example@gmail.com">
+            <input type="text" placeholder="First-Name" id="">
+            <input type="text" placeholder="Last-Name" id="">
+            <input type="text" placeholder="Example@gmail.com" id="">
         </div>
     </div>
     <div class="second-section" id="services">
@@ -60,7 +65,7 @@
             <img src="images/Rectangle 5.png" alt="">
             <h1>SERVICES I OFFER</h1>
             <p>I will help wou with finding a solution and <br> solve your problem.</p>
-            <img src="images/btn.png" alt="" class="let">
+            <img src="images/btn.png" alt="" class="let" onclick="GetMe()">
         </div>
         <div class="right">
             <div class="top">
@@ -68,9 +73,9 @@
                     <h1>01</h1>
                     <h2>Web Design</h2>
                 </div>
-                <img src="images/Frame 2.png" alt="">
+                <img src="images/Frame 2.png" alt=""  onclick="DropDown()">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, 
+            <p id="present">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, 
                 purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor 
                 rhoncus dolor purus non enim praesent elementum facilisis leo, vel
             </p>
@@ -80,7 +85,7 @@
                     <h1>02</h1>
                     <h2>WordPress Development</h2>
                 </div>
-                <img src="images/Frame 2.png" alt="">
+                <img src="images/Frame 2.png" alt="" >
             </div>
                 <span></span>
             <div class="thirdtop">
@@ -102,15 +107,15 @@
             <div class="rectangle-11">
                 <img src="images/unsplash_d2w-_1LJioQ.png" alt="" class="unsplash">
                 <div class="work-content">
-                    <h1>SportX - Website design</h1>
+                    <h1 class="same">SportX - Website design</h1>
                     <h2>Sports Website Design</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
                     <img src="images/btn (2).png" alt="">
                 </div>
             </div>
-            <div class="rectangle-11">
+            <div class="rectangle-11" id="Me">
                 <div class="work-content2">
-                    <h1>NFTme - WordPress Development</h1>
+                    <h1 class="same">NFTme - WordPress Development</h1>
                     <h2>NFT web development</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
                     <img src="images/btn (2).png" alt="">
@@ -120,14 +125,14 @@
             <div class="rectangle-11">
                 <img src="images/unsplash_d2w-_1LJioQ (3).png" alt="" class="unsplash">
                 <div class="work-content3" width="404px">
-                    <h1>Dentos - Webflow Development</h1>
+                    <h1 class="same">Dentos - Webflow Development</h1>
                     <h2>Dentist Web Development</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
                     <img src="images/btn (2).png" alt="">
                 </div>
             </div>
              <div class="button">
-                 <button>BROWSE ALL</button>
+                 <button >BROWSE ALL</button>
              </div>
         </div>
     </div>
@@ -137,11 +142,11 @@
             <h1>TESTIMONIAL</h1>
             <p>What people say about me</p>
             <div class="arrow">
-                <img src="images/testiminal arrow left.png" alt="">
-                <img src="images/testiminal arrow right.png" alt="">
+                <img src="images/testiminal arrow left.png" alt="" class="arrows">
+                <img src="images/testiminal arrow right.png" alt="" class="arrows">
             </div>
             <div class="first">
-                <img src="images/Rectangle 7.png" alt="">
+                <img src="images/Rectangle 7.png" alt="" class="rect-7">
                 <div class="righthand">
                     <img src="images/quote.png" alt="">
                     <p>Sonali helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</p>
@@ -173,5 +178,6 @@
             </div>
         </div>
     </footer>
+   <script src="script.js" defer></script>
 </body>
 </html>
