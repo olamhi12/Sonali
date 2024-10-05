@@ -58,6 +58,7 @@ body  {
     color: #2C363F;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 header button {
     padding: 12px 30px;
@@ -141,6 +142,10 @@ header button {
 .lettalk2 {
     opacity: 1 !important;
 }
+.each {
+    display: flex;
+    align-items: center;
+}
 .form {
     display: flex;
     flex-direction: column;
@@ -149,9 +154,9 @@ header button {
     align-items: center;
     border-radius: 5px;
     gap: 10px;
-   width: 300px;
+   width: 400px;
    height: 400px;
-   color: #F2F5EA;
+   color: #2C363F;
 }
 .form input {
     background-color: white;
@@ -665,5 +670,15 @@ footer button {
    footer h1 {
     width: 256px;
     font-size: 24px;
+    margin-left: 52px;
+   }
+   footer button {
+    font-size: 12px;
+   }
+   .lastcontent .anchor{
+    width: 200px;
+   }
+   .anchor a{
+    font-size: 10px;
    }
 }
