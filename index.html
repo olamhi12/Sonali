@@ -1,186 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="first-section">
-        <div class="frame">
-            <a href="">Home</a>
+      <div class="frame">
+        <a href="">Home</a>
+      </div>
+      <header>
+        <div class="phone-header">
+          <img src="images/Frame 13.png" alt="" id="Menu" onclick="Menu()" />
+          <button>SONALI.</button>
         </div>
-        <header>
-            <div class="phone-header">
-                <img src="images/Frame 13.png" alt="" id="Menu">
-                <button>SONALI.</button>
+        <div class="lap-head">
+          <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#testimonial">Testimonial</a>
+          </div>
+          <button class="Lappy">Contact</button>
+        </div>
+      </header>
+      <div class="line3"></div>
+      <main>
+        <div class="word">
+          <img src="images/Rectangle 3.png" alt="" />
+          <h1>
+            I’M SONALI A <br />
+            WEB DEVELOPER
+          </h1>
+          <p>
+            I craft high-performing, beautiful websites that are <br />
+            conversion-focused, brand-accurate, & people- <br />friendly.
+          </p>
+          <button onclick="GetMe()">LET'S TALK</button>
+          <div class="social-icon">
+            <h2>Follow me</h2>
+            <div class="icons">
+              <a href=""><img src="images/Vector.png" alt="" /></a>
+              <a href=""><img src="images/Vector (1).png" alt="" /></a>
+              <a href=""><img src="images/Vector (2).png" alt="" /></a>
+              <a href=""><img src="images/Vector (3).png" alt="" /></a>
             </div>
-            <div class="lap-head">
-             <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#services">Services</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#testimonial">Testimonial</a>
-             </div>
-             <button class="Lappy" >Contact</button>
-            </div>
-        </header>
-        <div class="line3"></div>
-        <main>
-            <div class="word">
-                <img src="images/Rectangle 3.png" alt="">
-                <h1>I’M SONALI A <br> WEB DEVELOPER</h1>
-                <p>I craft high-performing, beautiful websites that are <br>
-                     conversion-focused, brand-accurate, & people- <br>friendly.</p>
-                     <button >LET'S TALK</button>
-                     <div class="social-icon">
-                        <h2>Follow me</h2>
-                        <div class="icons">
-                            <a href=""><img src="images/Vector.png" alt=""></a>
-                            <a href=""><img src="images/Vector (1).png" alt=""></a>
-                            <a href=""><img src="images/Vector (2).png" alt=""></a>
-                            <a href=""><img src="images/Vector (3).png" alt=""></a>
-                        </div>
-                     </div>
-            </div>
-            <div class="img">
-                <img src="images/image 19.png" alt="">
-                <img src="images/scroll down.png" alt="" class="Scroll">
-            </div>
-        </main>
+          </div>
+        </div>
+        <div class="img">
+          <img src="images/image 19.png" alt="" />
+          <img src="images/scroll down.png" alt="" class="Scroll" />
+        </div>
+      </main>
     </div>
     <div class="lettalk">
-        <div class="form">
-            <div class="each">
-                <h2>first Name ;</h2>
-                <input type="text" placeholder="First-Name" id="">
-            </div>
-            <input type="text" placeholder="Last-Name" id="">
-            <input type="text" placeholder="Example@gmail.com" id="">
+      <div class="form">
+        <button onclick="Close()">x</button>
+        <div class="each">
+          <h2>first Name ;</h2>
+          <input type="text" placeholder="First-Name" id="" />
         </div>
+        <div class="each">
+          <h2>Last Name ;</h2>
+          <input type="text" placeholder="Last-Name" id="" />
+        </div>
+        <div class="each">
+          <h2>Email ;</h2>
+          <input type="text" placeholder="Example@gmail.com" id="" />
+        </div>
+      </div>
+      <button class="sub" onclick="Sub()">submit</button>
     </div>
     <div class="second-section" id="services">
-        <div class="left">
-            <img src="images/Rectangle 5.png" alt="">
-            <h1>SERVICES I OFFER</h1>
-            <p>I will help wou with finding a solution and <br> solve your problem.</p>
-            <img src="images/btn.png" alt="" class="let" >
+      <div class="left">
+        <img src="images/Rectangle 5.png" alt="" />
+        <h1>SERVICES I OFFER</h1>
+        <p>
+          I will help wou with finding a solution and <br />
+          solve your problem.
+        </p>
+        <img src="images/btn.png" alt="" class="let" onclick="GetMe()" />
+      </div>
+      <div class="right">
+        <div class="top">
+          <div class="item-text">
+            <h1>01</h1>
+            <h2>Web Design</h2>
+          </div>
+          <img src="images/Frame 2.png" alt="" onclick="DropDown()" />
         </div>
-        <div class="right">
-            <div class="top">
-                <div class="item-text">
-                    <h1 onclick="GetMe()">01</h1>
-                    <h2>Web Design</h2>
-                </div>
-                <img src="images/Frame 2.png" alt=""  onclick="DropDown()">
-            </div>
-            <p id="present">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, 
-                purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor 
-                rhoncus dolor purus non enim praesent elementum facilisis leo, vel
-            </p>
-                <span></span>
-            <div class="sectop">
-                <div class="item-text">
-                    <h1>02</h1>
-                    <h2>WordPress Development</h2>
-                </div>
-                <img src="images/Frame 2.png" alt="" >
-            </div>
-                <span></span>
-            <div class="thirdtop">
-                <div class="item-text">
-                    <h1>03</h1>
-                    <h2>Webflow Development</h2>
-                </div>
-                <img src="images/Frame 2.png" alt="">
-            </div>
+        <p id="present">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis, lectus magna fringilla urna,
+          porttitor rhoncus dolor purus non enim praesent elementum facilisis
+          leo, vel
+        </p>
+        <span></span>
+        <div class="sectop">
+          <div class="item-text">
+            <h1>02</h1>
+            <h2>WordPress Development</h2>
+          </div>
+          <img src="images/Frame 2.png" alt="" />
         </div>
+        <span></span>
+        <div class="thirdtop">
+          <div class="item-text">
+            <h1>03</h1>
+            <h2>Webflow Development</h2>
+          </div>
+          <img src="images/Frame 2.png" alt="" />
+        </div>
+      </div>
     </div>
     <div class="third-section" id="portfolio">
-        <svg width="100" height="8" viewBox="0 0 100 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="100" height="8" fill="#2C363F" class="rectanglar"/>
-            </svg>
-            <h1>SELECTED WORK</h1>
-            <p>Take a look of some of my projects I have done.</p>
-         <div class="port">
-            <div class="rectangle-11">
-                <img src="images/unsplash_d2w-_1LJioQ.png" alt="" class="unsplash">
-                <div class="work-content">
-                    <h1 class="same">SportX - Website design</h1>
-                    <h2>Sports Website Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-                    <img src="images/btn (2).png" alt="">
-                </div>
-            </div>
-            <div class="rectangle-11" id="Me">
-                <div class="work-content2">
-                    <h1 class="same">NFTme - WordPress Development</h1>
-                    <h2>NFT web development</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-                    <img src="images/btn (2).png" alt="">
-                </div>
-                <img src="images/unsplash_d2w-_1LJioQ (2).png" alt="" class="unsplash">
-            </div>
-            <div class="rectangle-11">
-                <img src="images/unsplash_d2w-_1LJioQ (3).png" alt="" class="unsplash">
-                <div class="work-content3" width="404px">
-                    <h1 class="same">Dentos - Webflow Development</h1>
-                    <h2>Dentist Web Development</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-                    <img src="images/btn (2).png" alt="">
-                </div>
-            </div>
-             <div class="button">
-                 <button >BROWSE ALL</button>
-             </div>
+      <svg
+        width="100"
+        height="8"
+        viewBox="0 0 100 8"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="100" height="8" fill="#2C363F" class="rectanglar" />
+      </svg>
+      <h1>SELECTED WORK</h1>
+      <p>Take a look of some of my projects I have done.</p>
+      <div class="port">
+        <div class="rectangle-11">
+          <img src="images/unsplash_d2w-_1LJioQ.png" alt="" class="unsplash" />
+          <div class="work-content">
+            <h1 class="same">SportX - Website design</h1>
+            <h2>Sports Website Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor
+            </p>
+            <img src="images/btn (2).png" alt="" />
+          </div>
         </div>
+        <div class="rectangle-11" id="Me">
+          <div class="work-content2">
+            <h1 class="same">NFTme - WordPress Development</h1>
+            <h2>NFT web development</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor
+            </p>
+            <img src="images/btn (2).png" alt="" />
+          </div>
+          <img
+            src="images/unsplash_d2w-_1LJioQ (2).png"
+            alt=""
+            class="unsplash"
+          />
+        </div>
+        <div class="rectangle-11">
+          <img
+            src="images/unsplash_d2w-_1LJioQ (3).png"
+            alt=""
+            class="unsplash"
+          />
+          <div class="work-content3" width="404px">
+            <h1 class="same">Dentos - Webflow Development</h1>
+            <h2>Dentist Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor
+            </p>
+            <img src="images/btn (2).png" alt="" />
+          </div>
+        </div>
+        <div class="button">
+          <button>BROWSE ALL</button>
+        </div>
+      </div>
     </div>
     <div class="fourth-section" id="testimonial">
-        <div class="container">
-            <img src="images/Rectangle 5.png" alt="">
-            <h1>TESTIMONIAL</h1>
-            <p>What people say about me</p>
-            <div class="arrow">
-                <img src="images/testiminal arrow left.png" alt="" class="arrows">
-                <img src="images/testiminal arrow right.png" alt="" class="arrows">
-            </div>
-            <div class="first">
-                <img src="images/Rectangle 7.png" alt="" class="rect-7">
-                <div class="righthand">
-                    <img src="images/quote.png" alt="">
-                    <p>Sonali helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</p>
+      <div class="container">
+        <img src="images/Rectangle 5.png" alt="" />
+        <h1>TESTIMONIAL</h1>
+        <p>What people say about me</p>
+        <div class="first">
+          <img src="images/Rectangle 7.png" alt="" class="rect-7" />
+          <div class="righthand">
+            <img src="images/quote.png" alt="" />
+            <p>
+              Sonali helped us build a software so intuitive that it didn't need
+              a walkthrough. He solved complex problems with brilliant design.
+            </p>
 
-                    <h3>Andy Smith</h3>
-                    <h2>Founder, Apple</h2>
-                </div>
+            <h3>Andy Smith</h3>
+            <h2>Founder, Apple</h2>
+            <div class="arrow">
+              <img src="images/testiminal arrow left.png" alt="" class="arrows" />
+              <img src="images/testiminal arrow right.png" alt="" class="arrows" />
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <footer>
-        <div class="last">
-            <h1>Keep in touch with me    Say Hi!</h1>
-            <button>START A CONVERSATION</button>
+      <div class="last">
+        <h1>Keep in touch with me Say Hi!</h1>
+        <button onclick="GetMe()">START A CONVERSATION</button>
+      </div>
+      <div class="lastline"></div>
+      <div class="lastcontent">
+        <div class="anchor">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#testimonial">Testimonial</a>
         </div>
-        <div class="lastline"></div>
-        <div class="lastcontent">
-            <div class="anchor">
-                <a href="#home">Home</a>
-                <a href="#services">Services</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#testimonial">Testimonial</a>
-            </div>
-            <div class="lasticon"> 
-                <a href=""><img src="images/Vector.png" alt=""></a>
-                <a href=""><img src="images/Vector (1).png" alt=""></a>
-                <a href=""><img src="images/Vector (2).png" alt=""></a>
-                <a href=""><img src="images/Vector (3).png" alt=""></a>
-            </div>
+        <div class="lasticon">
+          <a href=""><img src="images/Vector.png" alt="" /></a>
+          <a href=""><img src="images/Vector (1).png" alt="" /></a>
+          <a href=""><img src="images/Vector (2).png" alt="" /></a>
+          <a href=""><img src="images/Vector (3).png" alt="" /></a>
         </div>
+      </div>
     </footer>
-   <script src="script.js" defer></script>
-</body>
+    <script src="script.js" defer></script>
+  </body>
 </html>
